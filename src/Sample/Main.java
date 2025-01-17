@@ -29,7 +29,7 @@ public class Main {
         managers[1] = manager2;
         managers[2] = manager3;
 
-        for(Manager manager : managers){
+        for(Manager manager : managers){   //managerから一つ一つをgetしていく
             System.out.println(manager.getName());
             System.out.println(manager.getId());
             System.out.println(manager.getSalary());

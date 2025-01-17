@@ -2,9 +2,9 @@ package Sample;
 
 public class Car {
 
-    private int speed;
-    private String name;
-    private boolean flg;
+     int speed;
+     String name;
+     boolean flg;
 
 
     public int getSpeed() {
