@@ -30,7 +30,11 @@ public class Main {
         managers[2] = manager3;
 
         for(Manager manager : managers){
-            System.out.println(manager);
+            System.out.println(manager.getName());
+            System.out.println(manager.getId());
+            System.out.println(manager.getSalary());
+            System.out.println(manager.getDepartment());
+            System.out.println();
         }
 
 
